@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(165, 163, 163);
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+ 
+}
+.sidebar nav{
+    padding: 23px 50px;
+}
+nav ul li{
+    margin: 45px 0;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.infocontainer{
+    /* background-color: cadetblue;  */
+    width: 80vw;
+    height: 60vh;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info div{
+    padding: 3px;
+    font-family: 'Source Code Pro', monospace;
+}
+.devinfo{
+    font-size: 50px;
+}
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.about{
+  
+    font-size: 25px;
+}
+.summary{
+    font-size: 15px;
+}
+
+.btn button{
+    background-color:rgb(65, 119, 153);
+    color: white;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 10px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+.btn button:hover{
+    color:rgb(65, 119, 153);
+    background-color: white;
+}
+
+.devimg img{
+    height: 60vh;
+}
+.container{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+   
+}
+
+
+/* contact me  */
+.conform{
+    background-color:  rgb(234, 227, 227);
+    margin-top: 130px;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+.conform h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px; 
+}
+.conform div{
+    padding: 10px;
+}
+.conform div input{
+    width: 17vw;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.subbtn{
+    background-color:rgb(65, 119, 153);
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 10px;
+    margin: 8px 0;
+    cursor: pointer; 
+}
+.subbtn:hover{
+    color:rgb(65, 119, 153);
+    background-color: white;
+}
+
+/* blof css*/
+.blog{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+.bhead{
+    font-size: 35px;
+    margin-left: 138px;
+    padding: 20px auto 10px auto;
+    margin-top: 30px;
+}
+.head2{
+    font-size: 25px;
+    margin-top: 10pxpx;
+    margin-left: 138px;
+    padding: 10px;
+}
+.fitimg img{
+    width: 60vw;
+    height: 30vh;
+    margin-left: 121px;
+}
+.contant p{
+    margin-left: 135px;
+    font-size: 18px;
+}
+
+/* intro css*/
+.intro{
+    width:60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.introhead{
+    margin-top:30px;
+    
+}
+.introp p{ 
+    font: size 10pz;
+    padding: 10px 0;
+
+}
+.sidebarGo{
+    transform: translate(-233px, 0);
+    position: absolute;
+}
+.humburger{
+    position: absolute;
+    cursor: pointer;
+  }
+  .menu{
+    padding: 10px;
+  }
+  .cross{
+    padding: 10px;
+    margin-left: 110px;
+   
+  }
+
+/* media query */
+
+/* @media (max-width: 900px) {
+  /* .infocontainer{
+    flex-wrap: wrap;
+  }
+} */ 
