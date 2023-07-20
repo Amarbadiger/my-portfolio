@@ -71,6 +71,7 @@ ul li a{
     padding: 10px;
     margin: 8px 0;
     cursor: pointer;
+    border: none;
 }
 .btn button:hover{
     color:rgb(65, 119, 153);
@@ -79,6 +80,9 @@ ul li a{
 
 .devimg img{
     height: 60vh;
+    border-radius: 250px;
+    border: 1px solid #afb1be;
+    box-shadow: 5px 5px 5px rgb(84, 84, 88);
 }
 .container{
     display: flex;
